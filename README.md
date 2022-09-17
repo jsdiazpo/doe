@@ -39,7 +39,7 @@ problem = opti.Problem(
    ]
 )
 
-design = find_local_max_ipopt(problem, "linear")
+design = doe.find_local_max_ipopt(problem, "linear")
 ```
 
 ![doe_example](docs/assets/getting_started_constraints_local_opt.PNG)
